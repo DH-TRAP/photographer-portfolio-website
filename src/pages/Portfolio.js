@@ -45,7 +45,7 @@ const Portfolio = () => {
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Recusandae, iure! Ullam, dolore? Eligendi, quam mollitia.
             </p>
-            <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>
+            <Link to={'photographer-portfolio-website/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>
               Hire me
             </Link>
           </motion.div>

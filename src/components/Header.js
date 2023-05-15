@@ -18,7 +18,7 @@ const Header = () => {
         <Link
           onMouseEnter={mouseEnterHandler}
           onMouseLeave={mouseLeaveHandler}
-          to={'/'}
+          to={'photographer-portfolio-website/'}
           className='max-w-[200px]'
         >
           <img src={Logo} alt='' style={{ height: "5rem" }} />
@@ -31,25 +31,25 @@ const Header = () => {
           onMouseLeave={mouseLeaveHandler}
         >
           <Link
-            to={'/home'}
+            to={'photographer-portfolio-website/home'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             Home
           </Link>
           <Link
-            to={'/about'}
+            to={'photographer-portfolio-website/about'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             About
           </Link>
           <Link
-            to={'/portfolio'}
+            to={'photographer-portfolio-website/portfolio'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             Porftolio
           </Link>
           <Link
-            to={'/contact'}
+            to={'photographer-portfolio-website/contact'}
             className='text-[#696c6d] hover:text-primary transition'
           >
             Contact

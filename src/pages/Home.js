@@ -39,7 +39,7 @@ const Home = () => {
             <p className='text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12'>
               Mumbai, India
             </p>
-            <Link to={'/contact'} className='btn mb-[30px]'>
+            <Link to={'photographer-portfolio-website/contact'} className='btn mb-[30px]'>
               hire me
             </Link>
           </motion.div>

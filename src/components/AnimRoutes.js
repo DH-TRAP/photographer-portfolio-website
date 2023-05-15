@@ -14,11 +14,11 @@ const AnimRoutes = () => {
   return (
     <AnimatePresence initial={true} mode='wait'>
       <Routes key={location.pathname} location={location}>
-        <Route path='/' element={<Home />} />
-        <Route path='/home' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='photographer-portfolio-website/' element={<Home />} />
+        <Route path='photographer-portfolio-website/home' element={<Home />} />
+        <Route path='photographer-portfolio-website/about' element={<About />} />
+        <Route path='photographer-portfolio-website/portfolio' element={<Portfolio />} />
+        <Route path='photographer-portfolio-website/contact' element={<Contact />} />
       </Routes>
     </AnimatePresence>
   );
